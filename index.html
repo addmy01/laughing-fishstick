@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <title>Document</title>
+</head>
+<body>
+    <div class="container border mt-5">
+        <form method="" action="">
+            
+                <div class="row bg-light hr">
+                    <h3>Payment form example</h3>
+                    <hr>
+                </div>
+                <div class="alert alert-danger m-2" role="alert">Some fields are missing</div>
+            
+    
+            <div class="row">
+              <div class="form-group col-md-5">
+                <label for="card">Card #</label>
+                <input type="number" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXX">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="cvc">CVC#</label>
+                <input type="number" class="form-control" id="cvcNumber" placeholder="000">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="amount">Amount</label>
+                $<input type="number" class="form-control" id="AmountNumder" placeholder="Amount">
+              </div>
+            </div>
+    
+            <div class="row">            
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="fName">First Name</label>
+                    <input type="text" class="form-control" id="fName" placeholder="">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                    </div>
+                    <div class="form-row m-1">
+                        <div class="col-sm-6">
+                            <h6>We accept:</h6>
+                            <div class="bg-secondary d-flex justify-content-around p-2 rounded">
+                                <input type="radio">
+                                <label for="masterCard">
+                                    <i class="fa-brands fa-cc-mastercard"></i>
+                                </label>
+                                <input type="radio">
+                                <label for="visa">
+                                    <i class="fa-brands fa-cc-visa"></i>
+                                </label>
+                                <input type="radio">                            
+                                <label for="discovery">
+                                    <i class="fa-brands fa-cc-discover"></i>
+                                </label>
+                                <input type="radio">
+                                
+                                <label for="americanEX">
+                                    <i class="fab fa-cc-amex"></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            
+                        </div>
+                    </div>
+                </div>            
+                <div class="col-md-6 mb-5">
+                    <div class="form-row">
+                        <label for="lName">Last Name</label>
+                        <input type="text" class="form-control" id="lName" placeholder="">
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select name="state" id="state" class="form-control">
+                                <option value="state">Pick a State arrow<i class="fa-solid fa-angles-up-down"></i> </option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="pCode">Postal Code</label>
+                            <input type="text" class="form-control" id="pCode">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-row">
+                            <label for="message">Message</label>
+                            <textarea type="text" class="form-control" id="message" cols="30" rows="10"></textarea>
+                            <span>Add any notes here.</span> 
+                        </div>
+                    </div>            
+                </div>            
+            </div>
+
+            <div class="row bg-light">
+                <hr>
+                <div class="d-flex justify-content-end" >
+                    <button type="button" class="btn text-white bg-secondary m-2">Cancel</button>
+                    <button type="button" class="btn text-white bg-primary m-2">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
